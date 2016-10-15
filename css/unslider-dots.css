@@ -30,4 +30,5 @@
 .unslider-nav ol li.unslider-active {
   background: #fff;
   cursor: default;
+  color: #000;
 }

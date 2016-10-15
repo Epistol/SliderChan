@@ -97,16 +97,76 @@ textarea {
 
 
 
+.unslider-nav ol li {
+    display: inline-block;
+    width: 6px;
+    height: auto;
+    margin: 0 4px;
+    background: transparent;
+    border-radius: 5px;
+    overflow: visible;
+    text-indent: -8px;
+    border: 0px solid #fff;
+    cursor: pointer;
+    padding: 1em;
+    color: white;
+}
+li.unslider-active {
+    color: #a8d386;
+    font-weight: bold;
+    font-size: 115%;
+}
+a.unslider-pause {
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin: 1em;
+}
+a.unslider-play {
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin: 1em;
+}
+
+.page-content {
+    clear: both;
+}.menu_choose {
+     clear: both;
+ }
+
+nav.unslider-nav {
+    clear: both;
+    float: left;
+    background: #333;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.unslider-arrow {
+    position: absolute;
+    left: 0px;
+    z-index: 10;
+    cursor: pointer;
+    top: 50%;
+}
+
+.ui > .column:first-child{
+    margin-left: 25%;
+}
+.ui > .column:last-child{
+    background-color: rgba(0,0,0,.12);
+    color: #333333;
+    -webkit-border-radius: 0 10px 10px 0;
+    border-radius: 0 5rem 5rem 0;
+    margin: 0px;
+}
 
 
-
-
-
-
-
-
-
-
+.column.empty {
+    background: transparent!important;
+}
 
 
 
