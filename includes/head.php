@@ -42,8 +42,8 @@
 <script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js" async></script>
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
-<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
+<script src="/semantic/dist/semantic.min.js"></script>
 
 
 <script
