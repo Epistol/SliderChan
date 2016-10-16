@@ -43,6 +43,7 @@
     padding: 0px;
     width: auto;
     margin: 0px;
+    margin-top: 0.5rem;
     float: left;
 
 ">
@@ -54,7 +55,9 @@
         foreach ($alphabet as $a){
             echo '
                 
-                   <div class="ui icon input">
+                   <div class="ui icon input" style="
+    margin-bottom: 0.5rem;
+">
                     <button type="submit" class="ui basic button" value="'.$a.'" name="button_send">'.$a.'</button>
                     </div>
                 ';

@@ -246,10 +246,13 @@
 
                 //  And add it to our navigation item
                 $nav.children('ol').append('<li data-slide="' + key + '">' + label + '</li>');
+
             });
 
+
+
             //  Keep a copy of the nav everywhere so we can use it
-            self.$nav = $nav.insertAfter(self.$context);
+            self.$nav = $nav.insertAfter(self.$context);;
 
             //  Now our nav is built, let's add it to the slider and bind
             //  for any click events on the generated links

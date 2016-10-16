@@ -99,13 +99,13 @@ textarea {
 
 .unslider-nav ol li {
     display: inline-block;
-    width: 6px;
+     width: auto;
     height: auto;
     margin: 0 4px;
-    background: transparent;
-    border-radius: 5px;
-    overflow: visible;
-    text-indent: -8px;
+     background: inherit;
+     border-radius: 0px;
+     overflow: visible;
+    text-indent: 0px;
     border: 0px solid #fff;
     cursor: pointer;
     padding: 1em;
@@ -133,6 +133,8 @@ a.unslider-play {
     clear: both;
 }.menu_choose {
      clear: both;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
  }
 
 nav.unslider-nav {
@@ -265,9 +267,9 @@ nav.unslider-nav {
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 

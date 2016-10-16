@@ -1,6 +1,6 @@
 </div>
 <footer>
-    Coucou
+
 </footer>
 </main>
 </div>

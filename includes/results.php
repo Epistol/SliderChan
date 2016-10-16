@@ -10,7 +10,6 @@
 
 if(isset($_POST)){
 
-    var_dump($_POST);
     if(isset($_POST['searched'])){
         $content_url = htmlspecialchars($_POST['searched']);
     }
