@@ -8,9 +8,16 @@
 
 
 
-if(isset($_POST['searched'])){
+if(isset($_POST)){
 
-    $content_url = htmlspecialchars($_POST['searched']);
+    var_dump($_POST);
+    if(isset($_POST['searched'])){
+        $content_url = htmlspecialchars($_POST['searched']);
+    }
+    else {
+        $content_url = 'https://boards.4chan.org/'.htmlspecialchars($_POST['button_send']);
+    }
+
 
     $explosion =  explode("/", $content_url);
 
@@ -161,6 +168,7 @@ if(isset($_POST['searched'])){
 
         }
         else {
+
             echo 'Please define a board : ';
         }
     }
