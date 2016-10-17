@@ -20,8 +20,8 @@
     ga('create', 'UA-39203770-6', 'auto');
     ga('send', 'pageview');
 
-</script>
 
+</script>
 
 
 
@@ -51,6 +51,9 @@
 </script>
 -->
 <script src="/js/lightbox.js"></script>
+<script src="/js/menu.js"></script>
+
+
 
 </body>
 </html>
