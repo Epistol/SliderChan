@@ -179,7 +179,10 @@ nav.unslider-nav {
     font-family: 'Roboto', sans-serif;
 }
 
-
+i.material-icons {
+    font-size: 4rem;
+    color: #1e7917;
+}
 
 
 /* ==========================================================================
@@ -266,6 +269,12 @@ nav.unslider-nav {
     /* Style adjustments for viewports that meet the condition */
 }
 
+@media screen and (max-width: 768px){
+    form.ui.form{
+        display: none;
+    }
+}
+
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 1.25dppx),
@@ -350,4 +359,19 @@ nav.unslider-nav {
     h3 {
         page-break-after: avoid;
     }
+}
+
+
+.sixteen.wide.column.nobg {
+    background-color: transparent;
+    border-radius: initial;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.column.nobg {
+    background-color: transparent!important;
+    border-radius: initial!important;
+    margin: auto!important;
+    margin-top: 1%!important;
 }

@@ -12,7 +12,6 @@
 
     <link rel="stylesheet" href="/css/unslider.css">
     <link rel="stylesheet" href="/css/unslider-dots.css">
-    <link rel="stylesheet" href="/css/menu.css">
 
 
     <link rel="stylesheet" href="/css/normalize.css">
@@ -27,12 +26,7 @@
 
     <script src="/bower_components/classie/classie.js"></script>
 
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link href="/css/lightbox.css" rel="stylesheet">
+ <link href="/css/lightbox.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue-green.min.css" />
@@ -81,38 +75,3 @@
 </script>
 
 
-
-<nav id="bt-menu" class="bt-menu">
-    <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
-    <ul>
-        <form class="ui form" role="search" method="post" style="
-    padding: 0px;
-    width: auto;
-    margin: 0px;
-    margin-top: 0.5rem;
-    float: left;
-
-">
-
-
-            <?php $alphabet = array("a","b","c","d","e","f","g","gif","h","hr","k","m","o","p","r","s","t","u","v","vg","vr","w","wg","i","ic","r9k","s4s","vip","cm","hm",
-                "lgbt","y","3","aco","adv","an","asp","biz","cgl","ck","co","diy","fa","fit","gd","hc","his","int","jp","lit","mlp","mu","n","news","out","po","pol","qst",
-                "sci","soc","sp","tg","toy","trv","tv","vp","wsg","wsr","x");
-            foreach ($alphabet as $a){
-                echo '
-<li>
-                
-                   <div class="ui icon input" style="
-    margin-bottom: 0.5rem;
-">
-                    <button type="submit" class="ui basic button" value="'.$a.'" name="button_send">'.$a.'</button>
-                    </div>
-                ';
-               echo '</li>';
-            }
-
-            ?>
-
-        </form>
-    </ul>
-</nav>

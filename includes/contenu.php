@@ -4,7 +4,10 @@
 <![endif]-->
 
 
-<header class="menu_h">
+<header class="menu_h" style="
+    margin-left: 1rem;
+    margin-right: 1rem;
+">
     <!-- Title -->
     <div style="display:flex;justify-content:center;align-items:center;">
         <div><img src="/img/sliderchan.png" alt="SliderChan" style="
@@ -16,7 +19,8 @@
     <div class="mdl-layout-spacer"></div>
     <!-- Navigation. We hide it in small screens. -->
 
-        <form class="ui form" role="search" method="post">
+        <form class="ui form" role="search" method="post"  style="
+    margin-top: 1rem;">
 
             <div class="ui fluid action left icon input">
                 <i class="search icon"></i>
