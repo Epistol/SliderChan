@@ -143,7 +143,7 @@ if(isset($_POST)){
                             if (isset($post->tim)) {
                                 $extension = htmlspecialchars($post->ext);
                                 $img = $post->tim . $post->ext;
-                                $url_img_thumb = 'https://t.4cdn.org/' . $cat_thread . '/' . $img;
+                                $url_img_thumb = 'https://i.4cdn.org/' . $cat_thread . '/' . $img;
                                 $url_img_normal = 'https://i.4cdn.org/' . $cat_thread . '/' . $img;
                                 $pool_img[$count] = $url_img_thumb;
 
